@@ -18,11 +18,11 @@
   "author": "lilei",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<你的用户名>/pi-env-manager.git"
+    "url": "git+https://github.com/lilei1007/pi-env-manager.git"
   },
-  "homepage": "https://github.com/<你的用户名>/pi-env-manager",
+  "homepage": "https://github.com/lilei1007/pi-env-manager",
   "bugs": {
-    "url": "https://github.com/<你的用户名>/pi-env-manager/issues"
+    "url": "https://github.com/lilei1007/pi-env-manager/issues"
   },
   "scripts": {
     "typecheck": "tsc --noEmit --strict --module esnext --moduleResolution bundler extensions/env-command.ts"

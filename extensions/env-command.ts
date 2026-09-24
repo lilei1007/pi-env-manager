@@ -10,8 +10,8 @@
  *  - /env status     显示当前配置与生效版本。
  *  - spawnHook       之后 pi 里所有 shell 命令（mvn/java/node）自动使用选定版本。
  *
- * 安装：pi install npm:pi-env-manager （本地开发可 pi install ./pi-env-manager），
- * 或按传统方式拷贝到 ~/.pi/agent/extensions/ 后 /reload。
+ * 安装：pi install git:github.com/lilei1007/pi-env-manager
+ * （本地开发可 pi install ./pi-env-manager），或拷贝到 ~/.pi/agent/extensions/ 后 /reload。
  */
 
 import type { ExtensionAPI, ExtensionCommandContext } from "@earendil-works/pi-coding-agent";

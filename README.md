@@ -1,6 +1,5 @@
 # pi-env-manager
 
-[![npm version](https://img.shields.io/npm/v/pi-env-manager)](https://www.npmjs.com/package/pi-env-manager)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-blue)](#)
 
@@ -30,27 +29,20 @@
 - [pi-coding-agent](https://github.com/earendil-works/pi)（建议最新版本）
 - Node.js ≥ 18
 
-### 方式一：npm（推荐）
+### 方式一：GitHub（推荐）
 
 ```bash
-pi install npm:pi-env-manager
-```
-
-### 方式二：GitHub
-
-```bash
-# 将 <你的用户名> 替换为仓库所属用户名
-pi install git:github.com/<你的用户名>/pi-env-manager
+pi install git:github.com/lilei1007/pi-env-manager
 ```
 
 可指定分支或 tag：
 
 ```bash
-pi install git:github.com/<你的用户名>/pi-env-manager@main
-pi install git:github.com/<你的用户名>/pi-env-manager@v0.1.0
+pi install git:github.com/lilei1007/pi-env-manager@main
+pi install git:github.com/lilei1007/pi-env-manager@v0.1.0
 ```
 
-### 方式三：本地目录（开发调试）
+### 方式二：本地目录（开发调试）
 
 ```bash
 pi install ./pi-env-manager
@@ -59,7 +51,7 @@ pi install ./pi-env-manager
 ### 只试用一次，不写入配置
 
 ```bash
-pi -e npm:pi-env-manager
+pi -e git:github.com/lilei1007/pi-env-manager
 ```
 
 > ⚠️ 安装后请在 pi 中运行 **`/reload`** 使扩展生效。
@@ -127,7 +119,7 @@ pi -e npm:pi-env-manager
 ## 💻 开发
 
 ```bash
-git clone https://github.com/<你的用户名>/pi-env-manager
+git clone https://github.com/lilei1007/pi-env-manager
 cd pi-env-manager
 
 # 类型检查（需先安装类型依赖）
