@@ -1,0 +1,43 @@
+{
+  "name": "pi-env-manager",
+  "version": "0.1.0",
+  "description": "Pi /env command: per-project JDK/Maven/Node switching that syncs VS Code and pi's shell env, with auto-install of missing tools",
+  "keywords": [
+    "pi-package",
+    "extension",
+    "env",
+    "jdk",
+    "java",
+    "maven",
+    "node",
+    "jenv",
+    "environment"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "author": "lilei",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<你的用户名>/pi-env-manager.git"
+  },
+  "homepage": "https://github.com/<你的用户名>/pi-env-manager",
+  "bugs": {
+    "url": "https://github.com/<你的用户名>/pi-env-manager/issues"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit --strict --module esnext --moduleResolution bundler extensions/env-command.ts"
+  },  "files": [
+    "extensions/",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": ["./extensions/env-command.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
